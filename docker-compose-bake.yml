@@ -1,5 +1,5 @@
 app:
-    image: u1ih/requestbin:latest
+    build: .
     environment:
         REALM: prod
         REDIS_URL: "//redis:6379"

@@ -1,9 +1,18 @@
 # Request Bin
 
+
+## Just run it
 ```
-docker-compose build
 docker-compose up -d
 ```
+
+## Bake it yourself then run
+```
+git clone https://github.com/u1i/requestbin
+docker-compose -f docker-compose-bake.yml build
+docker-compose up -d
+```
+
 
 Request Bin will then run on http://localhost:8000/
 
